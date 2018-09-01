@@ -9,6 +9,7 @@ You will get a lists of lists. This is the real data you get to work on in machi
 1. As the user types a Jurisdiction Name all the attributes should show 
 2. Remove all the columns except Jurisdiction Name,count female,count male
 
-3.Count how many Jurisdiction are there where Count male is zero            #hint access it by your_list[1][4]
-4. Count how many Jurisdiction are there where Count female is zero         #hint access it by your_list[1][2]
+3.Count how many Jurisdiction are there where Count male is zero                          #hint access it by your_list[1][4]
+
+4. Count how many Jurisdiction are there where Count female is zero                       #hint access it by your_list[1][2]
 
