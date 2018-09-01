@@ -2,15 +2,7 @@
 
 Go to https://catalog.data.gov/dataset/demographic-statistics-by-zip-code-acfc9
 download the csv version of the file 
-In the directory you have saved this file run the following commands
-
-import csv
-
-with open('file.csv', 'r') as f:                                        #put the filename as as the first paramter
-  reader = csv.reader(f)
-  your_list = list(reader)
-
-print(your_list)
+In the directory you have saved this file run the code written in the text file
 
 You will get a lists of lists. This is the real data you get to work on in machine learning. Play around with this data. Then try and code these...
 
