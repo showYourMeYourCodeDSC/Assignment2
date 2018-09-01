@@ -6,7 +6,7 @@ In the directory you have saved this file run the following commands
 
 import csv
 
-with open('file.csv', 'r') as f:  #put the filename as as the first paramter
+with open('file.csv', 'r') as f:                                        #put the filename as as the first paramter
   reader = csv.reader(f)
   your_list = list(reader)
 
