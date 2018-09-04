@@ -1,0 +1,41 @@
+import csv
+with open('file.csv', 'r') as f: #put the filename as as the first paramter
+  reader = csv.reader(f) 
+  your_list = list(reader)
+print(your_list)
+x=input("Enter the Jurisdiction Name:")
+y=len(your_list)
+i=1
+while(i<=y):
+    if (x==your_list[i][0]):##to get the attributes of juridication..
+        print(your_list[i][1:])
+        break
+    else:
+        i+=1
+        continue
+#to count ,where count male is zero..
+
+count=0
+while(i<=y):
+    if (your_list[i][4]=='0'):
+        count+=1
+        
+    
+    else:
+        i+=1
+        continue
+        
+print(count,"{} times where the count male is zero")
+
+#to count,where count female is zero..
+count1=0
+while(i<y):
+    if (your_list[i][2]=='0'):
+        count1+=1
+        i+=1
+    
+    else:
+        i+=1
+        continue
+print(count1,"{}times the count female is zero.")
+
